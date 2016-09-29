@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+h1, h2 {
+    text-align:center;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.flexmain {
+    margin: 0 auto;
+    max-width: 920px;
+    display: flex;
+}
+.divide {
+    max-width: 354px;
+    flex-direction: row;
+    display: flex;
+}
+.col1 {
+    flex:3;
+    }
+.col2 {
+    flex:2;
+}
+.col22 {
+    flex:1.5;
+}
+.col1a {
+    flex:1.2;
+}
+.col1b {
+    flex:1.8;
+}
+.m1{
+    margin-right: 40px;
+}
