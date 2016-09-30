@@ -1,0 +1,56 @@
+/* General styles, may already be in your CSS file elsewhere */
+* { box-sizing: border-box; }
+
+/* Specific styles */
+.grid {
+  margin: 0 auto;
+  width: 96vw;
+  display: flex;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.grid__column {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 1vw;
+  align-content: flex-start;
+}
+
+.grid__column:last-child {
+  padding: 0;
+}
+
+.grid__column--two-thirds {
+  min-width: 64vw;
+  flex: 2;
+}
+
+.grid__column--one-third {
+  min-width: 32vw;
+  flex: 1;
+}
+
+.grid__item {
+  padding-bottom: 1vw;
+}
+
+.grid__item--full {
+  min-width: 100%;
+  flex: 3;
+}
+
+.grid__item--one-third {
+  flex: 1.2;
+  padding-right: 1vw;
+}
+
+.grid__item--one-third img {
+  min-width: 1px;
+}
+
+.grid__item--two-thirds {
+  flex: 1.8;
+}

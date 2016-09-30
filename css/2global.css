@@ -55,11 +55,9 @@ h2 {
     font-weight: normal;
     font-size: 12px:
 }
-}
 main {
     display: flex;
     justify-content: center;
-
 }
 #flexmain {
     margin: 0 auto;
@@ -77,19 +75,22 @@ main {
     justify-content: center;
 }
 .col1 {
-    flex:2;
+    flex:3;
+    padding-right: 5px;
     }
 .col2 {
-    flex:1;
+    flex:1.5;
+    margin-bottom: 10px;
 }
 .col22 {
-    flex:1.5;
+    flex:3;
 }
 .col1a {
-    flex:1;
+    flex:1.2;
+    padding-right: 10px;
 }
 .col1b {
-    flex:2;
+    flex:1.8;
 }
 .m1{
     margin-right: 40px;
