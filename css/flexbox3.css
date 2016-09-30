@@ -66,30 +66,25 @@ main {
     max-width: 920px;
     display: flex;
 }
-#flexmaincol2 {
-    display: flex;
-    flex: 2;
-}
 .divide {
+    max-width: 354px;
     flex-direction: row;
     display: flex;
-    max-width: 100%;
-    justify-content: center;
 }
 .col1 {
-    flex:2;
+    flex:3;
     }
 .col2 {
-    flex:1;
+    flex:2;
 }
 .col22 {
     flex:1.5;
 }
 .col1a {
-    flex:1;
+    flex:1.2;
 }
 .col1b {
-    flex:2;
+    flex:1.8;
 }
 .m1{
     margin-right: 40px;

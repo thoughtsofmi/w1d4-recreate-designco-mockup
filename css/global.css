@@ -9,6 +9,7 @@ img {
     top: 0px;
     width: 100%;
     padding-bottom: 100px;
+    clear: both;
 
 }
 #logo {
@@ -29,8 +30,6 @@ ul {
     padding: 30px;
     margin-top:0;
     margin-right: 20px;
-
-
 }
 ul li {
     display: inline;
@@ -41,6 +40,10 @@ a:visited {
 }
 a:link {
     color: black;
+}
+.spacer {
+    width: 100%;
+    height: 90px;
 }
 h1, h2 {
     text-align:center;
@@ -63,25 +66,30 @@ main {
     max-width: 920px;
     display: flex;
 }
+#flexmaincol2 {
+    display: flex;
+    flex: 2;
+}
 .divide {
-    max-width: 354px;
     flex-direction: row;
     display: flex;
+    max-width: 100%;
+    justify-content: center;
 }
 .col1 {
-    flex:3;
+    flex:2;
     }
 .col2 {
-    flex:2;
+    flex:1;
 }
 .col22 {
     flex:1.5;
 }
 .col1a {
-    flex:1.2;
+    flex:1;
 }
 .col1b {
-    flex:1.8;
+    flex:2;
 }
 .m1{
     margin-right: 40px;
