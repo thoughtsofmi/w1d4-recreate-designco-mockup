@@ -4,14 +4,55 @@
 img {
     width: 100%;
 }
+#header {
+
+}
+#logo {
+    font-weight: bold;
+    margin-right: 50px;
+}
+.red {
+    width: 800px;
+    height: 5px;
+    margin-bottom: 0;
+    background-color: red;
+}
+.icon {
+    float: right;
+}
+ul {
+    background-color: #dedede;
+    padding: 30px;
+    margin-top:0;
+    margin-right: 20px;
+
+}
+ul li {
+    display: inline;
+    padding: 5px;
+}
+a:visited {
+    color: red;
+}
+a:link {
+    color: black;
+}
 h1, h2 {
     text-align:center;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-weight: normal;
+    font-size: 12px:
+}
 }
 main {
     display: flex;
     justify-content: center;
 }
-.flexmain {
+#flexmain {
     margin: 0 auto;
     max-width: 920px;
     display: flex;
@@ -38,4 +79,41 @@ main {
 }
 .m1{
     margin-right: 40px;
+}
+#footer {
+    margin-top:50px;
+    width:100%;
+    text-align: left;
+    flex-wrap:nowrap;
+    display: flex;
+    justify-content: center;
+}
+.gridf {
+    max-width: 960px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.colf1nav {
+    flex:1;
+}
+.colf {
+    flex:3;
+}
+.columncount {
+    column-count:3;
+}
+#c1 {
+    font-weight: bold;
+    font-size: 14;
+}
+#nav1 {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+#nav3 {
+    margin-top: 10px;
 }
