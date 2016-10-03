@@ -1,4 +1,4 @@
-/* General styles, may already be in your CSS file elsewhere */
+/* General styles */
 * { box-sizing: border-box; }
 
 /* Specific styles */
@@ -14,8 +14,8 @@
 
 .grid__column {
   display: flex;
+  padding-right: 1.3vw;
   flex-wrap: wrap;
-  padding-right: 1vw;
   align-content: flex-start;
 }
 
@@ -24,13 +24,11 @@
 }
 
 .grid__column--two-thirds {
-  min-width: 64vw;
-  flex: 2;
+  flex: 1.99;
 }
 
 .grid__column--one-third {
-  min-width: 32vw;
-  flex: 1;
+  flex: 1.01;
 }
 
 .grid__item {
@@ -47,10 +45,19 @@
   padding-right: 1vw;
 }
 
-.grid__item--one-third img {
-  min-width: 1px;
-}
-
 .grid__item--two-thirds {
   flex: 1.8;
+}
+
+/* Example desktop-first media query */
+@media all and (max-width: 400px) {
+  .grid {
+    display: block;
+    padding: 0;
+  }
+  .grid div {
+    width: 100%;
+    display: block;
+    padding: 0;
+  }
 }

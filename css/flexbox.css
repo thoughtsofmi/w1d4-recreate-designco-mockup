@@ -11,19 +11,19 @@ html, body {
     height: 100%;
 }
 .grid {
-    /*margin: 0 auto;
-    margin-top: 50px;*/
+    margin: 0 auto;
+    margin-top: 50px;
     max-width: 960px;
-    display: flex;
+    display: inline-block;
 }
 .col {
     flex:1;
     background-color: rgb(111, 233, 191);
     transition: all 1s ease;
-    /*opacity: .1;*/
+    opacity: .1;
 }
 .col:hover {
-    /*opacity: 1;*/
+    opacity: 1;
 }
     .col:first-child {
         background-color: rgb(221, 98, 194);

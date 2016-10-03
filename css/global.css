@@ -6,30 +6,33 @@ img {
 }
 #header {
     position: fixed;
-    top: 0px;
     width: 100%;
-    padding-bottom: 100px;
-    clear: both;
+    padding-bottom: 160px;
 
 }
 #logo {
     font-weight: bold;
     margin-right: 50px;
+    margin-left: 100px;
 }
 .red {
-    width: 100%;
-    height: 3px;
+    width: 960px;
+    height: 5px;
     margin-bottom: 0;
     background-color: red;
+    margin-left: 110px;
 }
 .icon {
     float: right;
+    margin-right: 70px;
+    opacity: .2;
 }
 ul {
     background-color: #dedede;
-    padding: 30px;
+    padding: 40px;
     margin-top:0;
     margin-right: 20px;
+    font-size: 20px;
 }
 ul li {
     display: inline;
@@ -37,19 +40,22 @@ ul li {
 }
 a:visited {
     color: red;
+    text-decoration: none;
 }
 a:link {
     color: black;
+    text-decoration: none;
 }
 .spacer {
     width: 100%;
-    height: 90px;
+    height: 140px;
 }
 h1, h2 {
     text-align:center;
 }
 h1 {
-    font-size: 60px;
+    font-size: 45px;
+
 }
 h2 {
     font-weight: normal;
@@ -62,7 +68,7 @@ main {
     margin: 0 auto;
 }
 #flexmain {
-max-width: 920px;
+    max-width: 920px;
     display: flex;
     margin: 0 auto;
 }
