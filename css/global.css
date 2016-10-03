@@ -84,9 +84,11 @@ main {
 .col1 {
     flex:1.998;
     padding-right: 10px;
+    transition: all 1s ease;
     }
 .col2 {
     flex:1.014;
+    transition: all 1s ease;
 }
 .pad {
     padding-bottom: 6px;
@@ -97,7 +99,13 @@ main {
 }
 .col1b {
     flex:1.8;
+}
 
+.col1:hover {
+    opacity: .5;
+}
+.col2:hover{
+    opacity: .5
 }
 
 #footer {
